@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Calculadora de Nómina</string>
+    <string name="nombre_estudiante">Juan David Castro Higuera · 51419</string>
+
+    <!-- Encabezado -->
+    <string name="titulo_app">Calculadora de Nómina</string>
+    <string name="subtitulo_app">Estimación mensual de nómina para trabajadores colombianos</string>
+
+    <!-- F1, F2, F3: campos numéricos -->
+    <string name="campo_salario">Salario básico mensual</string>
+    <string name="campo_horas_diurnas">Horas extra diurnas</string>
+    <string name="campo_horas_nocturnas">Horas extra nocturnas</string>
+
+    <!-- F4, F5: interruptores -->
+    <string name="switch_dominical">Horas extra en domingo o festivo</string>
+    <string name="switch_transporte">La empresa suministra el transporte</string>
+
+    <!-- F6, F11: botones -->
+    <string name="boton_calcular">Calcular</string>
+    <string name="boton_limpiar">Limpiar</string>
+
+    <!-- F10: mensajes de validación -->
+    <string name="error_salario_vacio">Ingrese un salario válido</string>
+    <string name="error_salario_minimo">El salario no puede ser inferior al mínimo ($ 1.750.905)</string>
+    <string name="error_horas_negativas">Las horas extra deben ser un número mayor o igual a cero</string>
+    <string name="error_horas_exceso">El total de horas extra no puede superar 48 en el mes</string>
+
+    <!-- F7: secciones y conceptos del desglose -->
+    <string name="seccion_devengado">Devengado</string>
+    <string name="seccion_deducciones">Deducciones</string>
+    <string name="seccion_resultado">Resultado</string>
+    <string name="concepto_valor_hora">Valor hora ordinaria</string>
+    <string name="concepto_salario_basico">Salario básico</string>
+    <string name="concepto_horas_extra">Horas extra</string>
+    <string name="concepto_auxilio_transporte">Auxilio de transporte</string>
+    <string name="concepto_total_devengado">Total devengado</string>
+    <string name="concepto_salud">Salud (4 %)</string>
+    <string name="concepto_pension">Pensión (4 %)</string>
+    <string name="concepto_fondo">Fondo de Solidaridad Pensional (1 %)</string>
+    <string name="concepto_total_deducciones">Total deducciones</string>
+    <string name="concepto_salario_neto">Salario neto a recibir</string>
+
+    <!-- F9: rangos salariales -->
+    <string name="descripcion_rango_1">Rango 1: con derecho a auxilio de transporte</string>
+    <string name="descripcion_rango_2">Rango 2: sin auxilio de transporte ni Fondo de Solidaridad</string>
+    <string name="descripcion_rango_3">Rango 3: aporta al Fondo de Solidaridad Pensional</string>
+    <string name="content_description_rango_1">Ilustración del rango 1: trabajador con derecho a auxilio de transporte</string>
+    <string name="content_description_rango_2">Ilustración del rango 2: trabajador sin auxilio de transporte ni Fondo de Solidaridad</string>
+    <string name="content_description_rango_3">Ilustración del rango 3: trabajador que aporta al Fondo de Solidaridad Pensional</string>
+
+    <!-- Funcionalidad opcional: equivalencia en salarios mínimos -->
+    <string name="equivalencia_smmlv">Equivale a %1$.2f SMMLV</string>
+</resources>
